@@ -80,8 +80,10 @@
 	     WSGIScriptAlias / /var/www/html/catalog/catalog.wsgi
 
 	     Restart Apache:  sudo apache2ctl restart
-###  Install sqlalchemy:   sudo apt-get install python-sqlalchemy
-###  Install psycopg2:  sudo apt-get install python-psycopg2
+###  Install sqlalchemy:   
+             sudo apt-get install python-sqlalchemy
+###  Install psycopg2:  
+             sudo apt-get install python-psycopg2
 ###  Install pip and flask
 	       sudo apt-get install python-pip
 	       sudo pip install flask
@@ -90,9 +92,11 @@
 	      https://developers.google.com/api-client-library/python/start/installation
 	       sudo pip install --upgrade google-api-python-client
 ###  Install requests
-	          sudo pip install requests
-###  Create tables:   sudo python database_setup.py
-###  Populate database:  sudo python popuplateitems.py
+	       sudo pip install requests
+###  Create tables:   
+               sudo python database_setup.py
+###  Populate database:  
+               sudo python popuplateitems.py
 ###  Make tweaks to code and change configuration in Facebook and Google Developer's consoles
 
 ###  DNS is ec2-52-201-17-120.compute-1.amazonaws.com

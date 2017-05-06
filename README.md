@@ -92,8 +92,8 @@
 ###  Install requests
 	          sudo pip install requests
 ###  Create tables:   sudo python database_setup.py
-####  Populate database:  sudo python popuplateitems.py
-##  Make tweaks to code and change configuration in Facebook and Google Developer's consoles
+###  Populate database:  sudo python popuplateitems.py
+###  Make tweaks to code and change configuration in Facebook and Google Developer's consoles
 
 ###  DNS is ec2-52-201-17-120.compute-1.amazonaws.com
 
